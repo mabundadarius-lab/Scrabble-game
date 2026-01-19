@@ -37,6 +37,8 @@ namespace Scrabble_game
             Console.WriteLine($"{PlayerName}");
         }
 
+        
+
 
 
     }
