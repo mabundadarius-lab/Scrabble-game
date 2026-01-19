@@ -36,8 +36,40 @@ namespace Scrabble_game
         {
             Console.WriteLine($"{PlayerName}");
         }
+        //Method to display the word to guess
+        public void displayword()
+        {
+            Console.WriteLine($"The word to guess is: {Word}");
+        }
 
+        public void displayhints()
+        {
+            Console.WriteLine($"Hint 1: {Hint1}");
+            Console.WriteLine($"Hint 2: {Hint2}");
+            Console.WriteLine($"Hint 3: {Hint3}");
+        }
 
+        public void displaylevel()
+        {
+            Console.WriteLine($"Current Level: {Level}");
+        }
+
+        public void displayScore()
+        {
+            Console.WriteLine($"Current Score: {Score}");
+        }
+
+        public void endgame()
+        {
+            if (IsGameOver)
+            {
+                Console.WriteLine("Game Over! Thanks for playing.");
+            }
+            else
+            {
+                Console.WriteLine("Game is still ongoing. Keep playing!");
+            }
+        }
 
     }
 }
