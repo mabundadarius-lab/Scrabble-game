@@ -49,6 +49,9 @@ namespace Scrabble_game
             Console.WriteLine($"Hint 3: {Hint3}");
         }
 
+        
+
+
         public void displaylevel()
         {
             Console.WriteLine($"Current Level: {Level}");
