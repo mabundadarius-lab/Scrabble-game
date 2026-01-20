@@ -32,7 +32,7 @@ namespace Scrabble_game
                 string[] hints = { currentLevel.Hint1, currentLevel.Hint2, currentLevel.Hint3 };
 
                 Console.Clear();
-                Console.WriteLine("-Welcome to the LDIL Scramble Game-");
+                Console.WriteLine($"-Welcome to the LDIL Scramble Game {playerName}-");
                 Console.WriteLine($"------------- LEVEL {currentLevel.Level} -------------");
 
                 // Loop through the 3 hints
