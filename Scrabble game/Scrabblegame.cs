@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Scrabble_game
 {
-    internal class ScrabbleGame // *
+    internal class ScrabbleGame 
     {
 
         //Properties for the scrable game
@@ -32,7 +32,7 @@ namespace Scrabble_game
         }
 
         //Methods for the scrable game
-        public void Displayplayername() // *
+        public void Displayplayername() 
         {
             Console.WriteLine($"{PlayerName}");
         }
@@ -42,7 +42,7 @@ namespace Scrabble_game
             Console.WriteLine($"The word to guess is: {Word}");
         }
 
-        public void DisplayHints(int numberOfHints = 1) // method to display hints
+        public void DisplayHints(int numberOfHints = 1)
         {
             if (numberOfHints >= 1) Console.WriteLine($"Hint 1: {Hint1}");
             if (numberOfHints >= 2) Console.WriteLine($"Hint 2: {Hint2}");
