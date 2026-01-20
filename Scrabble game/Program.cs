@@ -7,6 +7,11 @@ namespace Scrabble_game
     {
         static void Main(string[] args)
         {
+            //Introduction of the player name
+
+            Console.WriteLine("Enter your name: ");
+            string playerName = Console.ReadLine();
+
             // Create the list of 15 levels - add more leveles
             List<Scrabblegame> levels = new List<Scrabblegame>();
 
@@ -67,7 +72,8 @@ namespace Scrabble_game
                 
             }
 
-            Console.WriteLine("\n--- Game Over! Thanks for playing buddy---");
+            Console.WriteLine();
+            Console.WriteLine($"--- Game Over! Thanks for playing {playerName}---");
         }
     }
 }
