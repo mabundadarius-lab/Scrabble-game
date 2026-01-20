@@ -6,7 +6,7 @@
 
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, Darius!");
+            Console.WriteLine("Welcome to the LDIL Scramble Game");
         }
     }
 }
