@@ -42,7 +42,7 @@ namespace Scrabble_game
             Console.WriteLine($"The word to guess is: {Word}");
         }
 
-        public void DisplayHints(int numberOfHints = 1)
+        public void DisplayHints(int numberOfHints = 1) 
         {
             if (numberOfHints >= 1) Console.WriteLine($"Hint 1: {Hint1}");
             if (numberOfHints >= 2) Console.WriteLine($"Hint 2: {Hint2}");
