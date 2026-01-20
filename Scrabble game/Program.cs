@@ -14,6 +14,7 @@ namespace Scrabble_game
             levels.Add(new Scrabblegame("CAT", 0, 1, "Player1", "Small pet", "Meows", "Likes milk", false));
             levels.Add(new Scrabblegame("DOG", 0, 2, "Player1", "Barks", "Man's best friend", "Tail wagger", false));
             levels.Add(new Scrabblegame("APPLE", 0, 3, "Player1", "Red fruit", "Keeps doctor away", "Tech logo", false));
+            levels.Add(new Scrabblegame("LDIL", 0, 4, "Player1", "Has white tables", "Has expensive screens", "Has 15 girls and 10 boys", false));
             // ... add levels 4 through 15 here ...
 
             foreach (var currentLevel in levels)
