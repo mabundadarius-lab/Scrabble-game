@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Scrabble_game
 {
-    internal class Scrabblegame
+    internal class ScrabbleGame // *
     {
 
         //Properties for the scrable game
@@ -32,7 +32,7 @@ namespace Scrabble_game
         }
 
         //Methods for the scrable game
-        public void playername()
+        public void Displayplayername() // *
         {
             Console.WriteLine($"{PlayerName}");
         }
@@ -62,7 +62,9 @@ namespace Scrabble_game
         public void displayScore()
         {
             Console.WriteLine($"Current Score: {Score}");
+
         }
+        
 
         public void endgame()
         {
@@ -75,6 +77,7 @@ namespace Scrabble_game
                 Console.WriteLine("Game is still ongoing. Keep playing!");
             }
         }
+
 
     }
 }
