@@ -6,10 +6,24 @@ namespace Scrabble_game
     class Program
     {
         static void Main(string[] args)
-        {
-            //Introduction of the player name
 
-            Console.WriteLine("Enter your name: ");
+        {
+            // password for accessing the game
+            string password = " ";
+            string LDIL = "LDIL";
+
+            while (password != LDIL)
+            {
+                Console.WriteLine("Please Enter Your Password For the Scramble Game");
+                password = Console.ReadLine();
+                Console.Clear();
+
+            }
+
+
+                //Introduction of the player name
+
+                Console.WriteLine("Enter your name: ");
             string playerName = Console.ReadLine();
 
             // Create the list of 15 levels - add more leveles
