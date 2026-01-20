@@ -66,7 +66,7 @@ namespace Scrabble_game
                 
             }
 
-            Console.WriteLine("\n--- Game Over! Thanks for playing ---");
+            Console.WriteLine("\n--- Game Over! Thanks for playing buddy---");
         }
     }
 }
