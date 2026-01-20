@@ -34,6 +34,7 @@ namespace Scrabble_game
         //Methods for the scrabble game
         public void playerName()
         {
+            string playerName = Console.ReadLine();
             Console.WriteLine($"{PlayerName}");
         }
 

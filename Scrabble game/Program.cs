@@ -6,7 +6,13 @@ namespace Scrabble_game
     class Program
     {
         static void Main(string[] args)
-        {
+        {// 
+             Console.WriteLine("-Welcome to the LDIL Scramble Game-");
+            Console.WriteLine("Please Enter Your name");
+            Console.ForegroundColor = ConsoleColor.Blue;
+            string playerName = Console.ReadLine();
+            Console.ForegroundColor = ConsoleColor.White;
+
             // Create the list of 15 levels - add more leveles
             List<Scrabblegame> levels = new List<Scrabblegame>();
 
@@ -25,6 +31,7 @@ namespace Scrabble_game
 
                 Console.Clear();
                 Console.WriteLine("-Welcome to the LDIL Scramble Game-");
+                Console.WriteLine("");
                 Console.WriteLine($"------------- LEVEL {currentLevel.Level} -------------");
 
                 // Loop through the 3 hints
@@ -38,6 +45,7 @@ namespace Scrabble_game
                     { //colour green for the colour
                         Console.ForegroundColor = ConsoleColor.Green;
                         Console.WriteLine("CORRECT! Well done.");
+                        Console.Beep();
                         //collour reverse back to white
                         Console.ForegroundColor = ConsoleColor.White;
                        levelCleared = true;
@@ -50,7 +58,12 @@ namespace Scrabble_game
                         if (h < 2)
                         {  //changes  the text to Red when the entered answer is wrong 
                             Console.ForegroundColor = ConsoleColor.Red;
-                            Console.WriteLine("Wrong! Try the next hint...");//break;
+                            Console.WriteLine("Wrong! Try the next hint...");
+                            Console.Beep();
+                            Console.Beep();
+                            Console.Beep();
+
+                            //break;
                             // colour  back to white
                             Console.ForegroundColor = ConsoleColor.White;
                         }
@@ -66,7 +79,7 @@ namespace Scrabble_game
                 
             }
 
-            Console.WriteLine("\n--- Game Over! Thanks for playing buddy---");
+            Console.WriteLine($"\n--- Game Over! Thanks for playing {playerName}---");
         }
     }
 }
