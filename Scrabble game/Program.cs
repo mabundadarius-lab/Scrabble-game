@@ -36,6 +36,8 @@ namespace Scrabble_game
             levels.Add(new Scrabblegame("LDIL", 0, 4, "Player1", "Has white tables", "Has expensive screens", "Has 15 girls and 10 boys", false));
             levels.Add(new Scrabblegame("COMPUTER", 0, 5, "Player1", "Electronic device", "Used for coding", "Has a keyboard", false));
             levels.Add(new Scrabblegame("TIKTOK" , 0, 6, "Player1", "Popular app", "Short videos", "it has a bird logo", false));
+            levels.Add(new Scrabblegame("RAMAPHOSA" ,0, 7,"Player1","Sweet but corrupt","big nose","AKA cup cake",false));
+
             // ... add levels 4 through 15 here ...
 
             foreach (var currentLevel in levels)
