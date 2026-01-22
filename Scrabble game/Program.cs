@@ -37,6 +37,14 @@ namespace Scrabble_game
             levels.Add(new Scrabblegame("COMPUTER", 0, 5, "Player1", "Electronic device", "Used for coding", "Has a keyboard", false));
             levels.Add(new Scrabblegame("TIKTOK" , 0, 6, "Player1", "Popular app", "Short videos", "it has a bird logo", false));
             levels.Add(new Scrabblegame("RAMAPHOSA" ,0, 7,"Player1","Sweet but corrupt","big nose","AKA cup cake",false));
+            levels.Add(new Scrabblegame("PROTEA" ,0, 8,"Player1","natural","beauty","plant",false));
+            levels.Add(new Scrabblegame("PASTA" ,0, 9,"Player1","food","made from flour"," from italy",false));
+            levels.Add(new Scrabblegame("XYLOPHONE" ,0, 10,"Player1","wood","mallets","musical",false));
+            levels.Add(new Scrabblegame("DIAMOND" ,0, 11,"Player1","lasts for ever","shiny stone","girls best friend",false));
+            levels.Add(new Scrabblegame("RHINO" ,0, 12,"Player1","big animal","heavy","power",false));
+            levels.Add(new Scrabblegame("RAVEN " ,0, 13,"Player1","intelligent","small","animal",false));
+            levels.Add(new Scrabblegame("ANT" ,0, 14,"Player1","tiny","walk as unity ","clever",false));
+            levels.Add(new Scrabblegame("GIRAFFE" ,0, 15,"Player1","tallest animal","long neck","spots",false));
 
             // ... add levels 4 through 15 here ...
 
